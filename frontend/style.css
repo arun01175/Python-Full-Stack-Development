@@ -1,0 +1,221 @@
+/* 
+
+
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightgreen;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+} */
+
+/* h1{
+    color: blue;
+    text-align: center;
+    font-size: 36px;
+}
+body {
+    background-color: rgb(113, 180, 202);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+div{
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+button {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container {
+    background-color: lightgray;
+    width: 360px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+  
+}
+input{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 26px;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Contact Button */
+.hero button {
+    background-color: white;
+    color: #2563eb;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #1e293b;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Skills Heading */
+.heading {
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0 30px;
+    color: #1e293b;
+}
+
+/* Skills Cards */
+.container,
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 30px 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.container:hover,
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.container h2,
+.card h2 {
+    color: #2563eb;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.container p,
+.card p {
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .container,
+    .card {
+        width: 85%;
+    }
+}
