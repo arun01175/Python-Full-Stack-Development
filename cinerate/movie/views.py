@@ -56,7 +56,7 @@ def movie_detail(request, movie_id):
         'form': form,
         'user_review': user_review,
     }
-    return render(request, 'movies/movie_detail.html', context)
+    return render(request, 'movies/movie_details.html', context)
 
 
 # ---------- Step 8: Registration ----------
@@ -87,7 +87,7 @@ def edit_review(request, review_id):
     else:
         form = ReviewForm(instance=review)
 
-    return render(request, 'movies/edit_review.html', {'form': form, 'review': review})
+    return render(request, 'movies/edit.review.html', {'form': form, 'review': review})
 
 
 # ---------- Step 11: Delete review ----------
